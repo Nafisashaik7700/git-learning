@@ -1,1 +1,5 @@
-print("hello")
+a=str(input("enter a number"))
+if(a==a[::-1])
+print("palindrome:")
+else:
+    print("not palindrome")
